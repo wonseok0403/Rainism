@@ -63,7 +63,7 @@ using MyWebApi.Controllers;
             WriteLiteral("\n<h1> Game Room! </h1>\n\n");
             EndContext();
             BeginContext(57, 528, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4843c47521d44b51ab94109c4e8df0a5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78eefe6bae2d4fc790b365b1f2d3e0f3", async() => {
                 BeginContext(158, 217, true);
                 WriteLiteral("\n    <div class=\"form-group\">\n        <label> Rainism </label>\n        <button type=\"submit\" class=\"btn btn-primary\"> Ready&Start </button>\n    </div>\n    <div class=\"form-group\">\n        <label>대기인원</label>\n        <");
                 EndContext();

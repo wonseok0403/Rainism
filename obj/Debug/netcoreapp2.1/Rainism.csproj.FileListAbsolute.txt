@@ -34,3 +34,4 @@
 /Users/wonseok/sources/Rainism/obj/Debug/netcoreapp2.1/Razor/Views/User/Login.g.cshtml.cs
 /Users/wonseok/sources/Rainism/obj/Debug/netcoreapp2.1/Razor/Views/User/Signup.g.cshtml.cs
 /Users/wonseok/sources/Rainism/obj/Debug/netcoreapp2.1/Razor/Views/GameReady/Index.g.cshtml.cs
+/Users/wonseok/sources/Rainism/obj/Debug/netcoreapp2.1/Razor/Views/Chat/Chatroom.g.cshtml.cs
