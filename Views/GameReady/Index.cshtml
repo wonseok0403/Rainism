@@ -1,0 +1,18 @@
+﻿@model Rainism.Models.GameStatus
+
+<h1> Game Room! </h1>
+
+<form class="form-horizontal" method="get" asp-controller="GameReady" asp-action="ReadyToStartAsync">
+    <div class="form-group">
+        <label> Rainism </label>
+        <button type="submit" class="btn btn-primary"> Ready&Start </button>
+    </div>
+    <div class="form-group">
+        <label>대기인원</label>
+        <@Html.DisplayFor(modelItem => GameStatus.ReadyPeople)>
+    </div>
+    <div class="form-group">
+        <label>진행중인 게임 수</label>
+        <@Html.DisplayFor(modelItem=> GameStatus.GamingPeople)>
+    </div>
+</form>

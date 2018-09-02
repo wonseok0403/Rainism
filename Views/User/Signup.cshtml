@@ -1,0 +1,31 @@
+@model MyWebApi.Models.SimpleUser
+
+
+<h1>회원가입</h1>
+
+<form class="form-horizontal" method="post" asp-controller="User" asp-action="Signup">
+    <div class="form-group">
+        <label>사용자 ID</label>
+        <input type="number" class="form-control" asp-for="Id" placeholder="숫자 ID 입력!"/>
+    </div>
+
+    <div class="form-group">
+        <label>비밀번호</label>
+        <input type="text" class="form-control" asp-for="Password" placeholder="사용자 비밀번호 입력!"/>
+    </div>
+
+    <div class="form-group">
+        <label>별명</label>
+        <input type="text" class="form-control" asp-for="NickName" placeholder="사용자 별명 입력!"/>
+    </div>
+
+    <div class="form-group">
+        <label>사용자 휴대폰번호</label>
+        <input type="text" class="form-control" asp-for="PhoneNum" placeholder="사용자 휴대폰번호  입력!"/>
+    </div>
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">회원가입</button>
+        <a class="btn btn-warning" href="#">취소</a>
+    </div>
+</form>
